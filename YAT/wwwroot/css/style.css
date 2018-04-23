@@ -1,0 +1,56 @@
+/*
+@Author: ThemeMascot
+@URL: http://ThemeMascot.com
+
+This is the file where you can add your custom styles to change the look of the
+theme. But don't modify style-main.css file.
+
+*/
+
+/* Your custom css codes start here: */
+.img-circle {
+    border: 1px solid #fff;
+    padding: 5px;
+    margin: 15px;
+}
+.list-circle {
+	list-style-type: disc;
+}
+.image-drop img{
+	float: left;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+.bg-sidebar {
+	background-color: #f3f3f3;
+}
+.inner-header {
+    background-image: url(../images/pattern/p36.png);
+    background-color: #aafeff;
+}
+.box-cerdas { 
+    background: #f3f3f3;
+    margin-bottom: 20px;
+}
+.schedule-box {
+    box-shadow: 5px 10px 8px #888888;
+}
+.schedule-details,h3,p {
+    color: #292f5a !important;
+}
+.box-program {
+    border: 1px solid #ddd;
+    padding: 25px 10px;
+    margin-top: 50px;
+}
+.program-description a {
+    float: right;
+    border: 1px solid #ddd;
+    padding: 8px 22px;
+    position: relative;
+    top: 7px;
+}
+.title-progam {
+    border-left: 5px solid #292f5a;
+    padding-left: 10px;
+}

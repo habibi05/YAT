@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    @*Template Amanah Takaful*@
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="FundPro - Nonprofit, Crowdfunding & Charity HTML5 Template" />
+    <meta name="keywords" content="charity,crowdfunding,nonprofit,orphan,Poor,funding,fundrising,ngo,children" />
+    <meta name="author" content="ThemeMascot" />
+
+    <!-- Favicon and Touch Icons -->
+    <link href="~/images/favicon.png" rel="shortcut icon" type="image/png">
+    <link href="~/images/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="~/images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="~/images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="~/images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+
+    <!-- Stylesheet -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="~/css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link href="~/css/animate.css" rel="stylesheet" type="text/css">
+    <link href="~/css/css-plugin-collections.css" rel="stylesheet" />
+    <!-- CSS | menuzord megamenu skins -->
+    <link id="menuzord-menu-skins" href="~/css/menuzord-colored.css" rel="stylesheet" />
+    <!-- CSS | Main style file -->
+    <link href="~/css/style-main.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Preloader Styles -->
+    <link href="~/css/preloader.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Custom Margin Padding Collection -->
+    <link href="~/css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
+    <!-- CSS | Responsive media queries -->
+    <link href="~/css/responsive.css" rel="stylesheet" type="text/css">
+
+    <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
+    <link href="~/css/flaticon-set-charity.css" rel="stylesheet" type="text/css">
+    <link href="~/css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- Revolution Slider 5.x CSS settings -->
+    <link href="~/js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css" />
+    <link href="~/js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css" />
+    <link href="~/js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css" />
+
+    <!-- CSS | Theme Color -->
+    <link href="~/css/theme-skin-blue.css" rel="stylesheet" type="text/css">
+
+    <!-- external javascripts -->
+    <script src="~/js/jquery-2.2.4.min.js"></script>
+    <script src="~/js/jquery-ui.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+
+    <!-- JS | jquery plugin collection for this theme -->
+    <script src="~/js/jquery-plugin-collection.js"></script>
+
+    <!-- Revolution Slider 5.x SCRIPTS -->
+    <script src="~/js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+    <script src="~/js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+
+</head>
+<body>
+    <!-- preloader -->
+    <div id="preloader">
+        <div id="spinner">
+            <div class="preloader-square-swapping">
+                <div class="cssload-square-part cssload-square-green"></div>
+                <div class="cssload-square-part cssload-square-pink"></div>
+                <div class="cssload-square-blend"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top bg-theme-colored sm-text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="widget no-border m-0">
+                            <ul class="list-inline pull-right flip sm-pull-none sm-text-center mt-5">
+                                <li class="m-0 pl-10 pr-10 text-white"> <i class="fa fa-phone text-white pr-5"></i>Call Center : 081234567890</li>
+                                <li class="m-0 pl-10 pr-10 text-white"> <i class="fa fa-envelope-o text-white pr-5"></i>admin@amanahtakaful.org</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="header-nav-wrapper navbar-scrolltofixed bg-white">
+                <div class="container">
+                    <nav id="menuzord-right" class="menuzord default no-bg">
+                        <a class="menuzord-brand pull-left flip" href="index-mp-layout1.html">
+                            <img src="~/images/logo/logo-YAT.png" alt="">
+                        </a>
+                        <ul class="menuzord-menu">
+                            <li class="active"><a href="@Url.Action("Index","Home")">Home</a></li>
+                            <li>
+                                <a href="#galeri">Tentang kami</a>
+                                <ul class="dropdown">
+                                    <li><a href="sejarah-yat.html">Sejarah YAT</a></li>
+                                    <li><a href="struktur-yat.html">STRUKTUR</a></li>
+                                    <li><a href="visi-misi-yat.html">VISI MISI</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#program">Program</a>
+                                <ul class="dropdown">
+                                    <li><a href="@Url.Action("Cerdas","Home")">Amanah Cerdas</a></li>
+                                    <li><a href="@Url.Action("Sehat","Home")">Amanah Sehat</a></li>
+                                    <li><a href="@Url.Action("Sosial","Home")">Amanah Sosial Kemanusiaan</a></li>
+                                    <li><a href="@Url.Action("Wakaf","Home")">Amanah Wakaf Al-Qur'an</a></li>
+                                    <li><a href="@Url.Action("Qurban","Home")">Amanah Qurban untuk Ummat</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="@Url.Action("Liputan","Home")">Liputan</a></li>
+                            <li><a href="@Url.Action("Inspirasi","Home")">Inspirasi</a></li>
+                            <li><a href="#blog">Donasi</a></li>
+                            <li>
+                                <a href="#promoModal1" data-toggle="modal" data-target="#myModal">Kalkulator Zakat</a>
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                ...
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-dark btn-flat">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="widget no-border m-0">
+                                    <div class="search-form-wrapper">
+                                        <form id="searchform" class="mt-10" method="get">
+                                            <input class="" type="text" name="s" id="searchinput" value="Enter your search" onblur="if(this.value == '') { this.value ='Enter your search'; }" onfocus="if(this.value =='Enter your search') { this.value = ''; }">
+                                            <label>
+                                                <input type="submit" value="" name="submit">
+                                            </label>
+                                        </form>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer bg-gray-takaful border-top">
+        <div class="container pt-70 pb-40">
+            <div class="row pb-50">
+                <div class="col-md-8 pr-lg-90">
+                    <p class="pb-lg-10"><b>Yayasan Amanah Takaful</b> sebuah lembaga amil zakat nasional(LAZNAS) yang bergerak dalam penghimpun zakat, infaq/sedekah serta wakaf dari muzzaki dan menyalurkan dalam paket program pemberdayaan baik ekonomi, kesehatan, sosial untuk mustahik.</p>
+                    <p>Didirakan pada tanggal 24 Agustus 1998 berdasarkan Akta Notaris Paripurno, SH No. 53 dan perubahannya Akte Notaris Paripurno, SH No. 2 tanggal 7 Februari 2007 dengan tekad menghantarkan kemaslahatan kepada ummat dengan semangat peduli dan berbagi.</p>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-circle">
+                        <li>Profil Pengurus</li>
+                        <li>Unit Usaha</li>
+                        <li>Donatur</li>
+                        <li>Mitra YAT</li>
+                        <li>Donasi</li>
+                        <li>Hubungi Kami</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 p-0  pb-lg-50">
+                <ul>
+                    <li><b>Kantor Pusat Graha Takaful</b></li>
+                    <li>Jl. Mampang Prapatan Raya No. 100</li>
+                    <li>Jakarta, 12790 Indonesia</li>
+                </ul>
+            </div>
+            <div class="col-md-4 p-0">
+                <ul>
+                    <li>Tel. (021) 799 1234, 799 2345</li>
+                    <li>Fax. (021) 790 1435, 790 1944</li>
+                </ul>
+            </div>
+            <div class="col-md-4 p-0">
+                <ul class="styled-icons icon-md">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom bg-black-333">
+            <div class="container pt-15 pb-10">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="font-11 text-black-777 m-0">Copyright &copy;2018. All Rights Reserved by Amanah Takaful</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+    <!-- JS | Custom script for all pages -->
+    <script src="~/js/custom.js"></script>
+</body>
+</html>
