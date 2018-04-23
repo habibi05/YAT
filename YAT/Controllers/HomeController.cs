@@ -15,6 +15,45 @@ namespace YAT.Controllers
             return View();
         }
 
+        public ActionResult Cerdas()
+        {
+            return View();
+        }
+
+        public ActionResult Sehat()
+        {
+            return View();
+        }
+
+        public ActionResult Sosial()
+        {
+            return View();
+        }
+
+        public ActionResult Wakaf()
+        {
+            return View();
+        }
+
+        public ActionResult Qurban()
+        {
+            return View();
+        }
+
+        public ActionResult Liputan()
+        {
+            return View();
+        }
+
+        public ActionResult Inspirasi()
+        {
+            return View();
+        }
+
+        public ActionResult VisiMisi()
+        {
+            return View();
+        }
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";

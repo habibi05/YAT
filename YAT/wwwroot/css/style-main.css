@@ -1767,8 +1767,8 @@ form .error {
   right: auto;
 }
 /* -------- Has Side Panel ---------- */
-.side-push-panel.has-side-panel .menuzord .showhide,fleft {
-  float: left !important;
+.side-push-panel.has-side-panel .menuzord .showhide {
+  float: left;
 }
 /* -------- Body Overlay ---------- */
 .has-side-panel .body-overlay {

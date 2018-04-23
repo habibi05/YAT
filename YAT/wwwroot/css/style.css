@@ -44,7 +44,6 @@ theme. But don't modify style-main.css file.
     margin-top: 50px;
 }
 .program-description a {
-    float: right;
     border: 1px solid #ddd;
     padding: 8px 22px;
     position: relative;
@@ -53,4 +52,10 @@ theme. But don't modify style-main.css file.
 .title-progam {
     border-left: 5px solid #292f5a;
     padding-left: 10px;
+}
+.fright{
+    float: right;
+}
+.fleft {
+    float: left;
 }
